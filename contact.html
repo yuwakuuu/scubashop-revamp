@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact The Scuba Shop — Mesa, Arizona</title>
+<meta name="description" content="Got a question? Drop us a line. The Scuba Shop, 1122 South Greenfield Rd, Mesa AZ 85206. Call 480.705.9327 or email divestaff@thescubashop.org.">
+<meta name="theme-color" content="#051419">
+<meta property="og:title" content="Contact The Scuba Shop — Mesa, Arizona">
+<meta property="og:description" content="Got a question? Drop us a line. The Scuba Shop, 1122 South Greenfield Rd, Mesa AZ 85206. Call 480.705.9327 or email divestaff@thescubashop.org.">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&family=Michroma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="The Scuba Shop — home">
+      <svg class="flag" viewBox="0 0 46 32" aria-hidden="true"><rect width="46" height="32" fill="#e2362b"/><path d="M0 0h8l38 24v8h-8L0 8z" fill="#fff"/></svg>
+      <span class="brand-word" aria-hidden="true"><small>The</small><b>Scuba</b><small>Shop</small></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="gear.html">Gear &amp; Service</a>
+      <a href="trips.html">Trips</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="contact.html" aria-current="page">Book a class</a>
+    </nav>
+    <a class="header-phone" href="tel:+14807059327">480.705.9327</a>
+    <button class="menu-btn" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero" aria-labelledby="page-title">
+  <div class="bg"><img src="images/night.jpg" alt="" data-parallax="0.2"></div>
+  <canvas class="bubbles" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Contact</p>
+    <div class="page-hero-grid">
+      <h1 id="page-title" class="display h-xl">Got a<br>question?</h1>
+      <p class="lede">Drop us a line. Course dates, private lessons, gear, trips — the team usually replies within a business day.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="form-title">
+  <div class="wrap contact-layout">
+    <div>
+      <p class="eyebrow">Enquiry</p>
+      <h2 id="form-title" class="display h-md" style="margin:1rem 0 2rem">Tell us what you’re planning</h2>
+
+      <form class="enquiry form-grid" novalidate>
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" name="name" autocomplete="name" required aria-describedby="e-name">
+          <span class="err" id="e-name" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email">
+          <span class="err" id="e-email" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="f-phone">Phone <span style="text-transform:none;letter-spacing:0">(optional)</span></label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" aria-describedby="e-phone">
+          <span class="err" id="e-phone" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="f-interest">I’m interested in</label>
+          <select id="f-interest" name="interest" required aria-describedby="e-interest">
+            <option value="">Choose one…</option>
+            <optgroup label="Courses">
+              <option value="discover-scuba">Discover Scuba (try-dive)</option>
+              <option value="open-water">Open Water Diver</option>
+              <option value="advanced">Advanced Open Water</option>
+              <option value="rescue">Rescue Diver / EFR</option>
+              <option value="specialty">A PADI Specialty</option>
+              <option value="kids">Kids — Bubblemaker / Seal Team</option>
+              <option value="pro">Divemaster / Instructor</option>
+            </optgroup>
+            <optgroup label="Shop">
+              <option value="rental">Gear rental</option>
+              <option value="service">Gear service</option>
+              <option value="trip">A dive trip</option>
+              <option value="other">Something else</option>
+            </optgroup>
+          </select>
+          <span class="err" id="e-interest" role="alert"></span>
+        </div>
+        <fieldset class="field full">
+          <legend>Experience</legend>
+          <div class="seg">
+            <input type="radio" id="x1" name="exp" value="none" checked><label for="x1">Never dived</label>
+            <input type="radio" id="x2" name="exp" value="ow"><label for="x2">Open Water</label>
+            <input type="radio" id="x3" name="exp" value="adv"><label for="x3">Advanced+</label>
+            <input type="radio" id="x4" name="exp" value="pro"><label for="x4">Dive pro</label>
+          </div>
+        </fieldset>
+        <div class="field full">
+          <label for="f-msg">Message</label>
+          <textarea id="f-msg" name="message" required aria-describedby="e-msg" placeholder="Dates you’re looking at, how many people, any questions…"></textarea>
+          <span class="err" id="e-msg" role="alert"></span>
+        </div>
+        <div class="form-foot">
+          <small>We’ll only use your details to answer this enquiry. Prefer the phone? Call 480.705.9327 during shop hours.</small>
+          <button class="btn" type="submit"><span>Send enquiry</span><span class="spinner" aria-hidden="true"></span><svg class="arrow" viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 5h16M12 1l4 4-4 4"/></svg></button>
+        </div>
+      </form>
+
+      <div class="form-success" role="status">
+        <p class="ref"></p>
+        <h3>Thanks, <span class="who"></span>.</h3>
+        <p>Your enquiry is in. One of our team will get back to you within one business day — usually sooner. If it’s urgent, call us on <a href="tel:+14807059327">480.705.9327</a>.</p>
+        <a class="btn light mt-2" href="courses.html">Browse courses while you wait</a>
+      </div>
+    </div>
+
+    <aside>
+      <div class="aside-card">
+        <p class="eyebrow light">The shop</p>
+        <h3>The Scuba Shop</h3>
+        <address style="font-style:normal;line-height:1.7">1122 South Greenfield Rd<br>Mesa, Arizona 85206</address>
+        <p class="mt-2" style="margin-bottom:0"><a href="tel:+14807059327">+1 480.705.9327</a><br><a href="mailto:divestaff@thescubashop.org">divestaff@thescubashop.org</a></p>
+      </div>
+      <div class="aside-card">
+        <p class="eyebrow light">We are open</p>
+        <div style="margin:1rem 0"><span class="open-now" data-open-now>Mon–Fri 12–7 · Sat 9–5</span></div>
+        <table class="hours">
+          <caption class="sr-only">Opening hours</caption>
+          <tr data-day="1"><th scope="row">Monday</th><td>12pm – 7pm</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>12pm – 7pm</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>12pm – 7pm</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>12pm – 7pm</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>12pm – 7pm</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>9am – 5pm</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </table>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="on-abyss" aria-label="Map">
+  <div class="map-frame" style="border-radius:0;min-height:460px">
+    <iframe title="Map to The Scuba Shop, 1122 South Greenfield Rd, Mesa AZ" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=1122%20S%20Greenfield%20Rd%2C%20Mesa%2C%20AZ%2085206&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe>
+    <div class="map-pin"><strong>Find us on Greenfield</strong><br>East Mesa, on Greenfield Road.<br><a class="textlink" style="margin-top:.5rem" href="https://www.google.com/maps/dir/?api=1&destination=1122+S+Greenfield+Rd+Mesa+AZ+85206" target="_blank" rel="noopener">Get directions →</a></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="The Scuba Shop — home"><svg class="flag" viewBox="0 0 46 32" aria-hidden="true"><rect width="46" height="32" fill="#e2362b"/><path d="M0 0h8l38 24v8h-8L0 8z" fill="#fff"/></svg><span class="brand-word" aria-hidden="true"><small>The</small><b>Scuba</b><small>Shop</small></span></a>
+        <p class="mt-2" style="max-width:34ch">PADI 5-Star Instructor Development Center serving Arizona divers since 2008. Training, service, support and sales under one roof — with a heated pool out back.</p>
+        <div class="socials"><a href="https://www.facebook.com/thescubashopmesa/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.7V14h2.7v8z"/></svg></a><a href="https://instagram.com/thescubashop" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21.9 8c-.1-1.6-.4-3-1.6-4.2S17.6 2.2 16 2.1C14.3 2 9.7 2 8 2.1 6.4 2.2 5 2.5 3.8 3.7S2.2 6.4 2.1 8C2 9.7 2 14.3 2.1 16c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.3.4-5.9.4s-4.6.1-5.9-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.3-.4-5.9s-.1-4.6.4-5.9a3.3 3.3 0 0 1 1.9-1.9c1.3-.5 4.3-.4 5.9-.4s4.6-.1 5.9.4a3.3 3.3 0 0 1 1.9 1.9c.5 1.3.4 4.3.4 5.9s.1 4.6-.4 5.9z"/></svg></a><a href="https://www.youtube.com/channel/UCcgbNyA7Qnl041FCUGM3HfA" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2C.5 9.1.5 12 .5 12s0 2.9.5 4.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-4.8.5-4.8s0-2.9-.5-4.8zM9.7 15V9l5.8 3z"/></svg></a></div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <address>1122 South Greenfield Rd<br>Mesa, Arizona 85206</address>
+        <p class="mt-2" style="margin-bottom:0"><a href="tel:+14807059327">+1 480.705.9327</a><br><a href="mailto:divestaff@thescubashop.org">divestaff@thescubashop.org</a></p>
+      </div>
+      <div>
+        <h4>We are open</h4>
+        <ul>
+          <li>Monday–Friday &nbsp;12pm–7pm</li>
+          <li>Saturday &nbsp;9am–5pm</li>
+          <li>Sunday &nbsp;Closed</li>
+        </ul>
+        <h4 class="mt-2">Explore</h4>
+        <ul>
+          <li><a href="courses.html">PADI courses</a></li>
+          <li><a href="gear.html">Rentals &amp; service</a></li>
+          <li><a href="trips.html">Dive trips</a></li>
+          <li><a href="about.html#staff">Meet our staff</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter sign up</h4>
+        <p style="font-size:.95rem">Class dates, trip openings and the odd lake report. No spam — we'd rather be diving.</p>
+        <form class="newsletter" novalidate>
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input id="nl-email" type="email" placeholder="you@example.com" autocomplete="email">
+          <button type="submit">Join</button>
+        </form>
+        <p class="newsletter-msg" role="status"></p>
+      </div>
+    </div>
+    <div class="footer-word" aria-hidden="true">Dive Arizona</div>
+    <div class="footer-base">
+      <span>© <span data-year>2026</span> The Scuba Shop (AZ). PADI 5-Star IDC.</span>
+      <span class="credit">Concept redesign by madebywaku</span>
+    </div>
+  </div>
+</footer>
+<script src="js/site.js" defer></script>
+</body>
+</html>
