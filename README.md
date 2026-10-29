@@ -9,7 +9,7 @@ Plain HTML, CSS and vanilla JS, with no build step. Open `index.html` or serve t
 Pages: Home · Courses · Gear & Service · Trips · About · Contact.
 
 Copy, prices, schedules and staff/course photos come from the shop's current site. Hero and trip
-imagery was generated for this concept. The enquiry and newsletter forms are front-end demos and
+imagery is concept artwork made for this redesign. The enquiry and newsletter forms are front-end demos and
 don't send anything yet.
 
 Concept redesign by madebywaku.
