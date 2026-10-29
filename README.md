@@ -1,5 +1,8 @@
 # The Scuba Shop — concept redesign
 
+> **This demo has moved to https://tmpbizz.com/demo/scubashop/**  
+> The pages here now forward old links to the same page there. The site files are in the `demo/scubashop` folder of github.com/yuwakuuu/tmp.
+
 A static concept redesign of [thescubashop.org](https://thescubashop.org/) (PADI 5-Star IDC, Mesa, AZ).
 Plain HTML, CSS and vanilla JS, with no build step. Open `index.html` or serve the folder.
 
